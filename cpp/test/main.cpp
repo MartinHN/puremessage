@@ -1,5 +1,5 @@
 #include "../include/PureMessage.hpp"
-//#include "../lib/pureparameters/pureparameter.h"
+
 int main(int argc, char *argv[])
 {
     auto * root = ParameterGroup::getRoot();

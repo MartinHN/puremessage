@@ -1,7 +1,7 @@
 #ifndef CPP_LIBRARY_H
 #define CPP_LIBRARY_H
 
-#include "../lib/pureparameters/pureparameter.h"
+#include "../lib/pureparameter/pureparameter.h"
 #include "../lib/cppzmq/zmq.hpp"
 
 

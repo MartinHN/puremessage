@@ -17,14 +17,14 @@ add_definitions("-Wno-parentheses")
 
 
 add_subdirectory(lib/cppzmq)
-#add_subdirectory(lib/pureparameters)
-#include_directories(lib/pureparameters/include)
+#add_subdirectory(lib/pureparameter)
+#include_directories(lib/pureparameter/include)
 #add_library(PM src/PureMessage.cpp include/PureMessage.hpp)
 
 
 add_executable(
         main
-#        lib/pureparameters/pureparameter.h
+#        lib/pureparameter/pureparameter.h
         #src/PureMessage.cpp
         test/main.cpp
         )
