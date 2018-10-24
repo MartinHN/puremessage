@@ -1,0 +1,6 @@
+[submodule "cpp/lib/pureparameter"]
+	path = cpp/lib/pureparameter
+	url = https://github.com/MartinHN/pureparameter.git
+[submodule "cpp/lib/cppzmq"]
+	path = cpp/lib/cppzmq
+	url = https://github.com/zeromq/cppzmq.git
